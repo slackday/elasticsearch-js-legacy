@@ -3962,10 +3962,7 @@ api.indices.prototype.getSettings = ca({
     },
     expandWildcards: {
       type: 'enum',
-      'default': [
-        'open',
-        'closed'
-      ],
+      'default': 'open',
       options: [
         'open',
         'closed',
